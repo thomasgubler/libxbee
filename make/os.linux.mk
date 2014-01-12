@@ -14,7 +14,6 @@ MKDIR=                 @if [ ! -d $* ]; then echo "mkdir -p $*"; mkdir -p $*; el
 RM:=                   rm -f
 RMDIR:=                rm -rf
 INSTALL=               install -g $(SYS_GROUP) -o $(SYS_USER) -DT
-MAN2HTML:=             man2html
 
 DEBUG:=                -g
 LIBS:=                 pthread rt
